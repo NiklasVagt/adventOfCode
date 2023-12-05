@@ -9,7 +9,7 @@ def taskOne():
     'blue': 14
   }
   sum = 0
-  with open('input.txt') as f:
+  with open('day2/input.txt') as f:
     lines = f.readlines()
     for line in lines:
       possible = True
@@ -28,7 +28,7 @@ def taskOne():
 
 def taskTwo():
   sum = 0
-  with open('input.txt') as f:
+  with open('day2/input.txt') as f:
     lines = f.readlines()
     for line in lines:
       cubes = {
