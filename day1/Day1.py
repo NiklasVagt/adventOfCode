@@ -5,7 +5,7 @@ digits = ['1','2','3','4','5','6','7','8','9']
 sum = 0;
 
 
-with open('input1.txt') as f:
+with open('input.txt') as f:
   lines = f.readlines()
   for line in lines: 
     firstDigit = ''  
