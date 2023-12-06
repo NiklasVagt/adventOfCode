@@ -1,7 +1,5 @@
 import re
 
-
-
 def taskOne():
   cubes = {
     'red': 12,
